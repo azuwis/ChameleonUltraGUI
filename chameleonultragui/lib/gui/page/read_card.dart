@@ -55,6 +55,7 @@ class LFCardInfo {
 
   LFCardInfo({this.uid = '', this.tech = '', this.cardExist = true});
 }
+
 class MifareClassicInfo {
   bool isEV1;
   MifareClassicRecovery? recovery;
