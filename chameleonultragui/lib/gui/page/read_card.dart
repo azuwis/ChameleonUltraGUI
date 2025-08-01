@@ -55,7 +55,6 @@ class LFCardInfo {
 
   LFCardInfo({this.uid = '', this.tech = '', this.cardExist = true});
 }
-//try to solve conflicts
 class MifareClassicInfo {
   bool isEV1;
   MifareClassicRecovery? recovery;
@@ -64,7 +63,7 @@ class MifareClassicInfo {
   MifareClassicState state;
   NTLevel? ntLevel;
   bool? hasBackdoor;
-  
+
   MifareClassicInfo({
     MifareClassicRecovery? recovery,
     this.isEV1 = false,
