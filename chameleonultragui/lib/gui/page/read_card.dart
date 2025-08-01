@@ -63,7 +63,7 @@ class MifareClassicInfo {
   MifareClassicState state;
   NTLevel? ntLevel;
   bool? hasBackdoor;
-//tes
+  
   MifareClassicInfo({
     MifareClassicRecovery? recovery,
     this.isEV1 = false,
