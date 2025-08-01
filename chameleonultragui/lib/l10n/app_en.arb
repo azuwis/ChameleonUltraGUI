@@ -302,6 +302,11 @@
   "failed_to_fetch_oc_contributors": "Failed to fetch OpenCollective contributors",
   "recovery_static_encrypted_nonce": "Detected Static Encrypted nonce tag. Recovery not yet available",
   "recovery_old_firmware": "Failed to collect nonces, is your firmware up to date?",
+  "override_card_type": "Override Card Type",
+  "override_card_type_description": "Select a specific card type to override auto-detection:",
+  "auto_detect_default": "Auto-detect (default)",
+  "override_card_type_tooltip": "Override card type",
+  "mifare_classic": "Mifare Classic",
   "emulate_device": "Emulated device",
   "emulate_device_confirmation": "Are you sure you want to {mode} emulated device? You can enable this to check app functions without having Chameleon Ultra, all actions with emulated device will not be saved. You won't be able to connect to real device unless you will disable this.",
   "prng_type": "PRNG type",
@@ -319,10 +324,5 @@
   "ultralight_counter": "Ultralight counter {index}",
   "ultralight_counter_value": "Counter value (0-16777215)",
   "counter_value_empty": "Counter value cannot be empty",
-  "counter_value_range": "Counter must be between 0 and 16777215",
-  "override_card_type": "Override Card Type",
-  "override_card_type_description": "Select a specific card type to override auto-detection:",
-  "auto_detect_default": "Auto-detect (default)",
-  "override_card_type_tooltip": "Override card type",
-  "mifare_classic": "Mifare Classic"
+  "counter_value_range": "Counter must be between 0 and 16777215"
 }
