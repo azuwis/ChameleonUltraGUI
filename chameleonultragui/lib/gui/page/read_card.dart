@@ -62,13 +62,18 @@ class MifareClassicInfo {
   MifareClassicType type;
   MifareClassicType? overrideType;
   MifareClassicState state;
+  NTLevel? ntLevel;
+  bool? hasBackdoor;
 
-  MifareClassicInfo(
-      {MifareClassicRecovery? recovery,
-      this.isEV1 = false,
-      this.type = MifareClassicType.none,
-      this.overrideType,
-      this.state = MifareClassicState.none});
+  MifareClassicInfo({
+    MifareClassicRecovery? recovery,
+    this.isEV1 = false,
+    this.type = MifareClassicType.none,
+    this.overrideType,
+    this.state = MifareClassicState.none,
+    this.ntLevel,
+    this.hasBackdoor,
+  });
 }
 
 class ReadCardPage extends StatefulWidget {
