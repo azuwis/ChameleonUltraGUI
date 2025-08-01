@@ -77,7 +77,7 @@ class MifareClassicInfo {
 
 class ReadCardPage extends StatefulWidget {
   const ReadCardPage({super.key});
-
+  
   @override
   ReadCardPageState createState() => ReadCardPageState();
 }
