@@ -52,7 +52,6 @@ class LFCardInfo {
   String uid;
   String tech;
   bool cardExist;
-
   LFCardInfo({this.uid = '', this.tech = '', this.cardExist = true});
 }
 
