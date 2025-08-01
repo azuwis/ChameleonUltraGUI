@@ -62,6 +62,9 @@ class MifareClassicInfo {
   MifareClassicType? overrideType;
   MifareClassicState state;
   NTLevel? ntLevel;
+
+
+  
   bool? hasBackdoor;
   MifareClassicInfo({
     MifareClassicRecovery? recovery,
